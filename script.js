@@ -7,7 +7,7 @@ function input(i) {
 
 function input2(i) {
     let y = inputCalc.value.substr(inputCalc.value.length - 1);
-    if (y === "%" || y === "/" || y === "*" || y === "-" || y === "+" ) {
+    if (y === "%" || y === "/" || y === "*" || y === "-" || y === "+" || y === "." ) {
         //pass
     }
     else {
